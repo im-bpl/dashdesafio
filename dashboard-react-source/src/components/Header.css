@@ -1,0 +1,60 @@
+.dashboard-header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.logo-container {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.logo-icon {
+  font-size: 2rem;
+}
+
+.dashboard-title {
+  display: inline-block;
+  margin: 0;
+  font-size: 1.8rem;
+  vertical-align: middle;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  text-align: right;
+}
+
+.week-indicator, .update-indicator {
+  margin: 5px 0;
+}
+
+.week-label, .update-label {
+  font-weight: normal;
+}
+
+.current-week-highlight {
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.update-date {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .header-left, .header-right {
+    text-align: center;
+  }
+  
+  .header-right {
+    margin-top: 15px;
+  }
+}

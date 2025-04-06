@@ -1,0 +1,23 @@
+.comparison-container {
+  margin: 20px 0;
+}
+
+.graph-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  margin: 30px 0 20px;
+  color: #333;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.graph {
+  width: 100%;
+  height: auto;
+}

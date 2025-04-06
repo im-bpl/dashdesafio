@@ -1,0 +1,32 @@
+.performance-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+  gap: 15px;
+}
+
+.performance-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.gauge-chart {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .performance-container {
+    flex-direction: column;
+  }
+  
+  .performance-card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
